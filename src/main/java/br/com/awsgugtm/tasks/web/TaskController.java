@@ -4,12 +4,11 @@ import br.com.awsgugtm.tasks.dto.TaskResponse;
 import br.com.awsgugtm.tasks.service.TaskService;
 import java.security.Principal;
 import java.util.List;
-import org.springframework.http.HttpStatus;
+import org.springframework.security.authentication.AuthenticationCredentialsNotFoundException;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.server.ResponseStatusException;
 
 @RestController
 @RequestMapping("/api/tasks")
@@ -21,23 +20,32 @@ public class TaskController {
         this.service = service;
     }
 
-    /** Seguro: lista apenas as tarefas do usuário autenticado. */
+    /** Lista apenas as tarefas do usuário autenticado. */
     @GetMapping
     public List<TaskResponse> list(Principal principal) {
-        return service.listByOwner(principal.getName()).stream()
+        String username = requireUsername(principal);
+        return service.listByOwner(username).stream()
                 .map(TaskResponse::from)
                 .toList();
     }
 
-    // =====================================================================
-    // ⚠️ VULNERÁVEL (BOLA / OWASP API1:2023): o usuário autenticado (Principal)
-    // NÃO é usado para checar o dono da tarefa. Alice lê tarefas de Bob e vice-versa.
-    // Correção (não aplicada): service.findByIdAndOwner(id, principal.getName()).
-    // =====================================================================
+    /**
+     * Retorna a tarefa somente se pertencer ao usuário autenticado.
+     * Tarefa de outro dono e id inexistente produzem o mesmo resultado (404).
+     */
     @GetMapping("/{id}")
-    public TaskResponse getById(@PathVariable Long id) {
-        return service.findByIdVulnerable(id)
+    public TaskResponse getById(@PathVariable("id") String rawId, Principal principal) {
+        String username = requireUsername(principal);
+        long id = TaskIdParser.parse(rawId);
+        return service.findByIdAndOwner(id, username)
                 .map(TaskResponse::from)
-                .orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND, "Tarefa não encontrada"));
+                .orElseThrow(TaskNotFoundException::new);
+    }
+
+    private static String requireUsername(Principal principal) {
+        if (principal == null) {
+            throw new AuthenticationCredentialsNotFoundException("Autenticação ausente");
+        }
+        return principal.getName();
     }
 }

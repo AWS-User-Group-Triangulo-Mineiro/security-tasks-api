@@ -1,0 +1,305 @@
+{
+  "pbtResults": {},
+  "executionHistory": {
+    "1.1 Substituir o teste de caracterização por um teste que espera 404": [
+      {
+        "executionId": "5a96adc9-4d6d-4c26-98ed-487feccac5fd",
+        "chatSessionId": "sess_1bcbc220-609d-4b20-9e35-21e040c8b6d7",
+        "timestamp": 1794922462046
+      },
+      {
+        "executionId": "5a96adc9-4d6d-4c26-98ed-487feccac5fd",
+        "chatSessionId": "sess_1bcbc220-609d-4b20-9e35-21e040c8b6d7",
+        "timestamp": 1794922471749
+      },
+      {
+        "executionId": "5a96adc9-4d6d-4c26-98ed-487feccac5fd",
+        "chatSessionId": "sess_1bcbc220-609d-4b20-9e35-21e040c8b6d7",
+        "timestamp": 1794922500748
+      }
+    ],
+    "2. Checkpoint - Demonstrar a falha na versão atual": [
+      {
+        "executionId": "5a96adc9-4d6d-4c26-98ed-487feccac5fd",
+        "chatSessionId": "sess_1bcbc220-609d-4b20-9e35-21e040c8b6d7",
+        "timestamp": 1794922462178
+      },
+      {
+        "executionId": "5a96adc9-4d6d-4c26-98ed-487feccac5fd",
+        "chatSessionId": "sess_1bcbc220-609d-4b20-9e35-21e040c8b6d7",
+        "timestamp": 1794922500856
+      },
+      {
+        "executionId": "5a96adc9-4d6d-4c26-98ed-487feccac5fd",
+        "chatSessionId": "sess_1bcbc220-609d-4b20-9e35-21e040c8b6d7",
+        "timestamp": 1794922671830
+      }
+    ],
+    "3. Checkpoint - Aprovação humana antes das alterações de segurança": [
+      {
+        "executionId": "5a96adc9-4d6d-4c26-98ed-487feccac5fd",
+        "chatSessionId": "sess_1bcbc220-609d-4b20-9e35-21e040c8b6d7",
+        "timestamp": 1794922463140
+      },
+      {
+        "executionId": "5a96adc9-4d6d-4c26-98ed-487feccac5fd",
+        "chatSessionId": "sess_1bcbc220-609d-4b20-9e35-21e040c8b6d7",
+        "timestamp": 1794922673032
+      },
+      {
+        "executionId": "5a96adc9-4d6d-4c26-98ed-487feccac5fd",
+        "chatSessionId": "sess_1bcbc220-609d-4b20-9e35-21e040c8b6d7",
+        "timestamp": 1794922690250
+      }
+    ],
+    "4.1 Adicionar a consulta atômica no repositório e ajustar o service": [
+      {
+        "executionId": "5a96adc9-4d6d-4c26-98ed-487feccac5fd",
+        "chatSessionId": "sess_1bcbc220-609d-4b20-9e35-21e040c8b6d7",
+        "timestamp": 1794922463189
+      },
+      {
+        "executionId": "5a96adc9-4d6d-4c26-98ed-487feccac5fd",
+        "chatSessionId": "sess_1bcbc220-609d-4b20-9e35-21e040c8b6d7",
+        "timestamp": 1794922691041
+      },
+      {
+        "executionId": "5a96adc9-4d6d-4c26-98ed-487feccac5fd",
+        "chatSessionId": "sess_1bcbc220-609d-4b20-9e35-21e040c8b6d7",
+        "timestamp": 1794922731117
+      }
+    ],
+    "4.2 Criar `TaskIdParser`, `ErrorResponse` e as exceções de domínio": [
+      {
+        "executionId": "5a96adc9-4d6d-4c26-98ed-487feccac5fd",
+        "chatSessionId": "sess_1bcbc220-609d-4b20-9e35-21e040c8b6d7",
+        "timestamp": 1794922463247
+      },
+      {
+        "executionId": "5a96adc9-4d6d-4c26-98ed-487feccac5fd",
+        "chatSessionId": "sess_1bcbc220-609d-4b20-9e35-21e040c8b6d7",
+        "timestamp": 1794922691721
+      },
+      {
+        "executionId": "5a96adc9-4d6d-4c26-98ed-487feccac5fd",
+        "chatSessionId": "sess_1bcbc220-609d-4b20-9e35-21e040c8b6d7",
+        "timestamp": 1794922731213
+      }
+    ],
+    "4.3 Criar `ApiExceptionHandler`": [
+      {
+        "executionId": "5a96adc9-4d6d-4c26-98ed-487feccac5fd",
+        "chatSessionId": "sess_1bcbc220-609d-4b20-9e35-21e040c8b6d7",
+        "timestamp": 1794922463326
+      },
+      {
+        "executionId": "5a96adc9-4d6d-4c26-98ed-487feccac5fd",
+        "chatSessionId": "sess_1bcbc220-609d-4b20-9e35-21e040c8b6d7",
+        "timestamp": 1794922731844
+      },
+      {
+        "executionId": "5a96adc9-4d6d-4c26-98ed-487feccac5fd",
+        "chatSessionId": "sess_1bcbc220-609d-4b20-9e35-21e040c8b6d7",
+        "timestamp": 1794922771730
+      }
+    ],
+    "4.4 Ajustar o `TaskController`": [
+      {
+        "executionId": "5a96adc9-4d6d-4c26-98ed-487feccac5fd",
+        "chatSessionId": "sess_1bcbc220-609d-4b20-9e35-21e040c8b6d7",
+        "timestamp": 1794922463365
+      },
+      {
+        "executionId": "5a96adc9-4d6d-4c26-98ed-487feccac5fd",
+        "chatSessionId": "sess_1bcbc220-609d-4b20-9e35-21e040c8b6d7",
+        "timestamp": 1794922771831
+      },
+      {
+        "executionId": "5a96adc9-4d6d-4c26-98ed-487feccac5fd",
+        "chatSessionId": "sess_1bcbc220-609d-4b20-9e35-21e040c8b6d7",
+        "timestamp": 1794922811566
+      }
+    ],
+    "5. Checkpoint - Repetir os testes e revisar o diff": [
+      {
+        "executionId": "5a96adc9-4d6d-4c26-98ed-487feccac5fd",
+        "chatSessionId": "sess_1bcbc220-609d-4b20-9e35-21e040c8b6d7",
+        "timestamp": 1794922463407
+      },
+      {
+        "executionId": "5a96adc9-4d6d-4c26-98ed-487feccac5fd",
+        "chatSessionId": "sess_1bcbc220-609d-4b20-9e35-21e040c8b6d7",
+        "timestamp": 1794922811649
+      },
+      {
+        "executionId": "5a96adc9-4d6d-4c26-98ed-487feccac5fd",
+        "chatSessionId": "sess_1bcbc220-609d-4b20-9e35-21e040c8b6d7",
+        "timestamp": 1794922885071
+      }
+    ],
+    "6.1 Adicionar os testes MockMvc do Requisito 12": [
+      {
+        "executionId": "5a96adc9-4d6d-4c26-98ed-487feccac5fd",
+        "chatSessionId": "sess_1bcbc220-609d-4b20-9e35-21e040c8b6d7",
+        "timestamp": 1794922463445
+      },
+      {
+        "executionId": "5a96adc9-4d6d-4c26-98ed-487feccac5fd",
+        "chatSessionId": "sess_1bcbc220-609d-4b20-9e35-21e040c8b6d7",
+        "timestamp": 1794922890010
+      },
+      {
+        "executionId": "5a96adc9-4d6d-4c26-98ed-487feccac5fd",
+        "chatSessionId": "sess_1bcbc220-609d-4b20-9e35-21e040c8b6d7",
+        "timestamp": 1794922963009
+      }
+    ],
+    "6.2 Escrever testes unitários do `TaskService`": [
+      {
+        "executionId": "5a96adc9-4d6d-4c26-98ed-487feccac5fd",
+        "chatSessionId": "sess_1bcbc220-609d-4b20-9e35-21e040c8b6d7",
+        "timestamp": 1794922463493
+      },
+      {
+        "executionId": "5a96adc9-4d6d-4c26-98ed-487feccac5fd",
+        "chatSessionId": "sess_1bcbc220-609d-4b20-9e35-21e040c8b6d7",
+        "timestamp": 1794922890085
+      },
+      {
+        "executionId": "5a96adc9-4d6d-4c26-98ed-487feccac5fd",
+        "chatSessionId": "sess_1bcbc220-609d-4b20-9e35-21e040c8b6d7",
+        "timestamp": 1794922963093
+      }
+    ],
+    "6.3 Escrever testes do `TaskRepository.findByIdAndOwner`": [
+      {
+        "executionId": "5a96adc9-4d6d-4c26-98ed-487feccac5fd",
+        "chatSessionId": "sess_1bcbc220-609d-4b20-9e35-21e040c8b6d7",
+        "timestamp": 1794922463530
+      },
+      {
+        "executionId": "5a96adc9-4d6d-4c26-98ed-487feccac5fd",
+        "chatSessionId": "sess_1bcbc220-609d-4b20-9e35-21e040c8b6d7",
+        "timestamp": 1794922890497
+      },
+      {
+        "executionId": "5a96adc9-4d6d-4c26-98ed-487feccac5fd",
+        "chatSessionId": "sess_1bcbc220-609d-4b20-9e35-21e040c8b6d7",
+        "timestamp": 1794922963832
+      }
+    ],
+    "6.4 Escrever testes do controller com service mockado": [
+      {
+        "executionId": "5a96adc9-4d6d-4c26-98ed-487feccac5fd",
+        "chatSessionId": "sess_1bcbc220-609d-4b20-9e35-21e040c8b6d7",
+        "timestamp": 1794922463582
+      },
+      {
+        "executionId": "5a96adc9-4d6d-4c26-98ed-487feccac5fd",
+        "chatSessionId": "sess_1bcbc220-609d-4b20-9e35-21e040c8b6d7",
+        "timestamp": 1794922891243
+      },
+      {
+        "executionId": "5a96adc9-4d6d-4c26-98ed-487feccac5fd",
+        "chatSessionId": "sess_1bcbc220-609d-4b20-9e35-21e040c8b6d7",
+        "timestamp": 1794922964627
+      }
+    ],
+    "6.5 Escrever testes negativos de log": [
+      {
+        "executionId": "5a96adc9-4d6d-4c26-98ed-487feccac5fd",
+        "chatSessionId": "sess_1bcbc220-609d-4b20-9e35-21e040c8b6d7",
+        "timestamp": 1794922463651
+      },
+      {
+        "executionId": "5a96adc9-4d6d-4c26-98ed-487feccac5fd",
+        "chatSessionId": "sess_1bcbc220-609d-4b20-9e35-21e040c8b6d7",
+        "timestamp": 1794922891877
+      },
+      {
+        "executionId": "5a96adc9-4d6d-4c26-98ed-487feccac5fd",
+        "chatSessionId": "sess_1bcbc220-609d-4b20-9e35-21e040c8b6d7",
+        "timestamp": 1794922965466
+      }
+    ],
+    "6.6 Escrever testes de fumaça da configuração local": [
+      {
+        "executionId": "5a96adc9-4d6d-4c26-98ed-487feccac5fd",
+        "chatSessionId": "sess_1bcbc220-609d-4b20-9e35-21e040c8b6d7",
+        "timestamp": 1794922463691
+      },
+      {
+        "executionId": "5a96adc9-4d6d-4c26-98ed-487feccac5fd",
+        "chatSessionId": "sess_1bcbc220-609d-4b20-9e35-21e040c8b6d7",
+        "timestamp": 1794922966501
+      },
+      {
+        "executionId": "5a96adc9-4d6d-4c26-98ed-487feccac5fd",
+        "chatSessionId": "sess_1bcbc220-609d-4b20-9e35-21e040c8b6d7",
+        "timestamp": 1794922998262
+      }
+    ],
+    "7. Checkpoint - Aprovação para alterar o `pom.xml` e baixar dependências": [
+      {
+        "executionId": "5a96adc9-4d6d-4c26-98ed-487feccac5fd",
+        "chatSessionId": "sess_1bcbc220-609d-4b20-9e35-21e040c8b6d7",
+        "timestamp": 1794922463740
+      },
+      {
+        "executionId": "5a96adc9-4d6d-4c26-98ed-487feccac5fd",
+        "chatSessionId": "sess_1bcbc220-609d-4b20-9e35-21e040c8b6d7",
+        "timestamp": 1794922998470
+      },
+      {
+        "executionId": "5a96adc9-4d6d-4c26-98ed-487feccac5fd",
+        "chatSessionId": "sess_1bcbc220-609d-4b20-9e35-21e040c8b6d7",
+        "timestamp": 1794923026017
+      }
+    ],
+    "8.1 Adicionar as dependências de teste no `pom.xml`": [
+      {
+        "executionId": "5a96adc9-4d6d-4c26-98ed-487feccac5fd",
+        "chatSessionId": "sess_1bcbc220-609d-4b20-9e35-21e040c8b6d7",
+        "timestamp": 1794922463779
+      }
+    ],
+    "10. Checkpoint final - Revisão e testes": [
+      {
+        "executionId": "5a96adc9-4d6d-4c26-98ed-487feccac5fd",
+        "chatSessionId": "sess_1bcbc220-609d-4b20-9e35-21e040c8b6d7",
+        "timestamp": 1794922463823
+      },
+      {
+        "executionId": "5a96adc9-4d6d-4c26-98ed-487feccac5fd",
+        "chatSessionId": "sess_1bcbc220-609d-4b20-9e35-21e040c8b6d7",
+        "timestamp": 1794923031571
+      },
+      {
+        "executionId": "5a96adc9-4d6d-4c26-98ed-487feccac5fd",
+        "chatSessionId": "sess_1bcbc220-609d-4b20-9e35-21e040c8b6d7",
+        "timestamp": 1794923293395
+      }
+    ],
+    "1. Escrever o teste de regressão que falha na versão atual": [
+      {
+        "executionId": "5a96adc9-4d6d-4c26-98ed-487feccac5fd",
+        "chatSessionId": "sess_1bcbc220-609d-4b20-9e35-21e040c8b6d7",
+        "timestamp": 1794922500957
+      }
+    ],
+    "4. Implementar a correção mínima": [
+      {
+        "executionId": "5a96adc9-4d6d-4c26-98ed-487feccac5fd",
+        "chatSessionId": "sess_1bcbc220-609d-4b20-9e35-21e040c8b6d7",
+        "timestamp": 1794922811719
+      }
+    ],
+    "6. Completar os testes de autorização e de log": [
+      {
+        "executionId": "5a96adc9-4d6d-4c26-98ed-487feccac5fd",
+        "chatSessionId": "sess_1bcbc220-609d-4b20-9e35-21e040c8b6d7",
+        "timestamp": 1794922998383
+      }
+    ]
+  }
+}
